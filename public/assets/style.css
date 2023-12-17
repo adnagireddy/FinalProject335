@@ -1,0 +1,8 @@
+#cardDisplay{
+    border-style: ridge; 
+    border-color: gold;
+    background-color: #f8f8ff;
+    width: 30rem;
+    height: 35rem;
+    padding: 2rem;
+}

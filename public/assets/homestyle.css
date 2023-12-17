@@ -1,0 +1,114 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:lightgray;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border:1px;
+            border-color:#444;
+            font-size:30px;
+            color:#444;
+            width:100%;
+            border-style:solid;
+            background-color:white;
+            
+        }
+
+        .bottom {
+            margin:20px;
+            font-size:30px;
+        }
+        
+        th {
+            padding:5px;
+            border:1px;
+            font-size:50px;
+            color:#444;
+            border-color:#444
+            
+        }
+       
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            color:white;
+            font-size:30px;
+            background-color: black;
+            padding: 2px;
+        }
+
+        #logo {
+            width:100px;
+            height:100px
+        }
+        #mainimg {
+            width:1600px;
+            height:800px;
+            margin-left:10%;
+            align-items:center;
+            display:flex;
+            justify-content:center
+        }
+
+        
+        #bighead {
+            background-color: #444;
+            padding: 20px;
+
+            font-size:100px;
+            color: #fff;
+            text-align: center; 
+            
+        }
+        
+        .formcontainer {
+            background-color:#444;
+            text-align:center;
+            margin:10px;
+            padding:30px;
+        }
+
+        #button {
+            padding:0.5rem;
+            border-style:double;
+            border-width:0.25rem;
+            border-radius:5px;
+            margin:1rem;
+            background-color:black;
+            color:white;
+            width:20rem;
+        }
+
+        strong {
+            color:white;
+            font-size:30px;
+        }
+        #message {
+            font-size:30px;
+        }
+
+        div {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .cardDisplay{
+            border-style: ridge; 
+            font-family:'Times New Roman', Times, serif;
+            border-width:20px;
+            margin-left: 35%;
+            border-color: gray;
+            background-color: silver;
+            width: 60rem;
+            height: 65rem;
+            padding: 2rem;
+            font-size:25px;
+
+        }
+        input {
+            width:20rem;
+            height:3rem;
+        }

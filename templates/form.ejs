@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage with Tabs</title>
+    <link href= "/assets/homestyle.css" rel="stylesheet" type="text/css" />    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th><img src="logo.png" id="logo" alt="logo" height="100" width="100"></th>
+            <th> <a href="/home.ejs">Home</a></th>
+            <th><a href="/form.ejs">E-Card Maker</a></th>
+        </tr>
+    </table>
+
+  
+    <main>
+        <h1 id="bighead">Generate Your Random E-Card!</h1>
+
+        <div class="tabs">
+            <h2>Fill in the questionaire below to make your dream E-Card!</h2>
+        </div>
+        <div class="formcontainer">
+            <form action="/form.ejs" method="post">
+                <strong>Title Of Card:</strong><input type="text" id="title" name="title" required>
+                <br>
+                <br>
+
+                <strong>Receiver's Name:</strong><input type="text" id="to" name="to" required>
+                <br>
+                <br>
+
+                <strong>Sender's Name:</strong><input type="text" id="from" name="from" required>
+                <br>
+                <br>
+
+                <strong>Message:</strong><textarea id="message" name="message" rows="8" required></textarea>
+                <br>
+                <br>
+
+        
+                <strong>Sign Off Style</strong><select id="signoff" name="signoff">
+                    <option value="XOXO">XOXO</option>
+                    <option value="Sincerely">Sincerely</option>
+                    <option value="HAGS">HAGS</option>
+                    <option value="Love">Love</option>
+                    <option value="Best">Best</option>
+                    <option value="Warm Regards">Warm Regards</option>
+
+                </select>
+                <br>
+                <br>
+
+                
+                <input type="submit" value="Click Here to Generate" id="button">
+            </form>
+        </div>
+       
+    </main>
+</body>
+
+</html>

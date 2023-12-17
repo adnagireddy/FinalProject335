@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href= "/assets/homestyle.css" rel="stylesheet" type="text/css" />    
+    <title>Order Confirmation</title>
+</head>
+
+<body>
+        <table>
+            <tr>
+                <th><img src="logo.png" id="logo" alt="logo"></th>
+                <th> <a href="/home.ejs">Home</a></th>
+                <th><a href="/form.ejs">E-Card Maker</a></th>
+            </tr>
+        </table>
+    
+      
+            <h1 id="bighead">View Your Card!</h1>
+           
+            <br>
+            <br>
+
+            <form action="/enterCardName.ejs" method="post" class="formcontainer">
+                <strong>If you would like to generate your randomized card then please input your card's name below.</strong><br>
+                <strong>Enter Card Name:&nbsp;&nbsp;</strong><input type="text" name="message2">
+                <input type="submit" value="Click Here to Generate" id="button">
+            </form>
+    
+
+</body>
+
+</html>
